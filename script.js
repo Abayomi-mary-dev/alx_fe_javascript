@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const quote = quotes[randomIndex];
         quoteDisplay.innerHTML = `<strong>${quote.text}</strong> <br> <em>- ${quote.category}</em>`;
     }
-    
-     // Function to add a new quote
+
+    // Function to add a new quote
     function addQuote() {
         const quoteText = newQuoteText.value.trim();
         const quoteCategory = newQuoteCategory.value.trim();
